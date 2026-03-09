@@ -13,6 +13,7 @@ This repository contains three interconnected research projects investigating mu
 ├── Data/                        # Data preparation and preprocessing pipelines
 ├── Federated-Learning/          # Federated learning framework for multimodal cancer data
 ├── GraphBased-Analysis/         # MORPHEUS: Graph-based multimodal classification framework
+├── Multimodal-Fusion/           # Early and late fusion strategies for LUAD/LUSC classification
 ```
 
 ---
@@ -30,6 +31,13 @@ Preprocessing and preparation pipelines for four biological modalities sourced f
 A privacy-preserving federated learning framework that trains models on distributed multimodal cancer data without sharing raw patient records. Simulates a client-server FL environment with FedAvg and FedProx aggregation strategies, evaluated across IID and non-IID data distributions and varying numbers of clients (K = 2, 5, 10).
 
 → See [`Federated-Learning/README.md`](Federated-Learning/README.md)
+
+---
+
+### 📁 Multimodal-Fusion
+A systematic comparison of early fusion (feature-level concatenation) and late fusion (decision-level aggregation) strategies across all four TCGA modalities — WSI, RNA-Seq, DNA methylation, and clinical data — for LUAD/LUSC classification. Evaluates Logistic Regression, SVM, KNN, and Naive Bayes classifiers under both fusion schemes using accuracy, F1-score, and AUC-ROC.
+
+→ See [`Multimodal-Fusion/README.md`](Multimodal-Fusion/README.md)
 
 ---
 
@@ -57,3 +65,4 @@ All experiments use publicly available data from [The Cancer Genome Atlas (TCGA)
 
 ## Citation
 
+If you use this code or data in your research, please cite the associated papers (forthcoming upon publication).
