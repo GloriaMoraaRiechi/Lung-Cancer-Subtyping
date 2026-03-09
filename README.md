@@ -2,7 +2,7 @@
 
 This repository contains three interconnected research projects investigating multimodal machine learning approaches for non-small cell lung cancer (NSCLC) subtype classification (LUAD vs. LUSC) using data from The Cancer Genome Atlas (TCGA).
 
-**Authors:** Gloria Riechi, Robert Eshun, Kristen Rhinehardt  
+**Authors:** Gloria Riechi, Robert Eshun  
 **Affiliation:** Department of Computational Data Science and Engineering, North Carolina A&T State University
 
 ---
@@ -65,4 +65,3 @@ All experiments use publicly available data from [The Cancer Genome Atlas (TCGA)
 
 ## Citation
 
-If you use this code or data in your research, please cite the associated papers (forthcoming upon publication).
