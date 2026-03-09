@@ -1,4 +1,4 @@
-# GraphBased-Analysis — MORPHEUS & Multimodal Fusion
+# GraphBased-Analysis: MORPHEUS
 
 This folder contains two complementary studies on multimodal fusion for NSCLC subtype classification using TCGA-LUAD and TCGA-LUSC data.
 
