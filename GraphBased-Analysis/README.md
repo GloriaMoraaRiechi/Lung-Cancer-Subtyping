@@ -1,10 +1,6 @@
-# GraphBased-Analysis: MORPHEUS
+# GraphBased-Analysis
 
-This folder contains two complementary studies on multimodal fusion for NSCLC subtype classification using TCGA-LUAD and TCGA-LUSC data.
-
----
-
-## Project 1: MORPHEUS
+## MORPHEUS
 
 **Paper:** *MORPHEUS: A Graph-Based Multimodal Framework for Interpretable Subtyping of Non-Small Cell Lung Cancer*  
 **Authors:** Gloria Riechi, Robert Eshun — NC A&T State University
